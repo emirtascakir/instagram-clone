@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
           width: double.infinity,
           child: Column(
             children: [
-              Flexible(child: Container(), flex: 2),
+              Flexible(flex: 3, child: Container()),
               SvgPicture.asset(
                 "assets/ic_instagram.svg",
                 color: primaryColor,
@@ -70,7 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
               const SizedBox(height: 12),
-              Flexible(flex: 2, child: Container()),
+              Flexible(flex: 3, child: Container()),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
