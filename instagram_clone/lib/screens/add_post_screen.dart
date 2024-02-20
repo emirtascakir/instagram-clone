@@ -122,7 +122,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
             appBar: AppBar(
               backgroundColor: mobileBackgroundColor,
               leading: IconButton(
-                onPressed: () {},
+                onPressed: clearImage,
                 icon: const Icon(
                   Icons.arrow_back,
                 ),
